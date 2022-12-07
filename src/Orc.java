@@ -1,9 +1,11 @@
-public class Orc extends Character{
+public class Orc extends PCharacter {
+
 
     public Orc(String name, int damage, int hp) {
         this.name = name;
         this.damage = damage;
         this.hp = hp;
+        this.type = "orc";
     }
 
     @Override
